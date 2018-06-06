@@ -11,14 +11,14 @@ go.textContent = 'Go!';
 
 function clickgo() {
     var name = document.getElementById('name').value;
-    var greeting = document.createTextNode("Hello, " + name);
+    var greeting = document.createTextNode("Hello, " + name +"!");
     var div = document.createElement('div');
     div.className = 'greeting';
     div.appendChild(greeting);
     hello.appendChild(div);
 
     setTimeout(function() {
-        var greeting = document.createTextNode("You see! That was an interation we just created by using JavaScript.");
+        var greeting = document.createTextNode("You see! That was an interation which we just created by using JavaScript.");
         var div = document.createElement('div');
         div.appendChild(greeting);
         div.className = 'greeting';

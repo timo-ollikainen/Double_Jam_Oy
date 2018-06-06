@@ -18,3 +18,10 @@ h1:hover {
   font-weight: bold;
   text-transform: uppercase;
 }
+.greeting {
+	margin: 5px;
+}
+
+#hello {
+	margin: 15px;
+}

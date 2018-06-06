@@ -32,7 +32,7 @@ function clickgo() {
         div.className = 'greeting';
 
         function callus () {
-            var greeting = document.createTextNode("Great! Call us and ask an offer. Telephone: +358-41-7530753");
+            var greeting = document.createTextNode("Great! Call us and ask for an offer. Telephone: +358-41-7530753");
             var div = document.createElement('div');
             div.appendChild(greeting);
             div.className = 'greeting';
